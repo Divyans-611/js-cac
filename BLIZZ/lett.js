@@ -6,7 +6,10 @@ const name= "Divv";
 // name="Fck"; ni hoga change
 console.log(name);
 
-var city = "Gharrr jana h";
-console.table([a,name,city]);
+let xcu; 
+//yehh jo hai isme kuch value assign nhi ki thus undefined
+
+var city = "Gharrr";
+console.table([a,name,city,xcu]);
 
 // var nhi use kro -> functional scope mein prblm
