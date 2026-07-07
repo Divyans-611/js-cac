@@ -20,4 +20,11 @@ console.log(typeof(age));
 
 /*OBJECT - 
 typeof(x) ->  x ka type btata haii
+
+typeof null -> object
+typeof undefined -> undefined
 */
+
+console.log(typeof null);  //Object degaa
+console.log(typeof undefined); // Undefined hi degaa
+
