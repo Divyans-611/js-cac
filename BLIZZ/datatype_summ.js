@@ -32,3 +32,12 @@ console.log(myName);
 console.log(name2);
 
 //Heap(Non-primitive)
+
+//heap mein copy ki jgh actual value pass ki gyi and usse idhr mein change aa gya real value mein
+let usrOne = {
+    email: "Higgu@gcom",
+    upi: "nhi@ybl"
+}
+let usrTwo = usrOne
+usrTwo.email = "jdns@kmd"
+console.log(usrOne.email);
