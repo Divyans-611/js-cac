@@ -41,3 +41,4 @@ let usrOne = {
 let usrTwo = usrOne
 usrTwo.email = "jdns@kmd"
 console.log(usrOne.email);
+console.log(usrTwo.email);
