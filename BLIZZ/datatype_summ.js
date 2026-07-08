@@ -1,4 +1,4 @@
-// pass by reference (Non-primitive)
+// pass by Reference (Non-primitive)
 
 // Arrays, Objects, Function
 
@@ -17,3 +17,18 @@ function plio(){
     console.log("Hizrrr");
 }
 plio();
+
+
+// ***********************MEMORY STUFF**********************
+
+//Stack (primitive)
+
+let myName = "Jiggu gammm"
+
+let name2 = myName
+name2 = "Niggu btchh"
+
+console.log(myName);
+console.log(name2);
+
+//Heap(Non-primitive)
