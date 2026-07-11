@@ -37,3 +37,6 @@ console.log(url.replace('%55' , '-'));
 
 //split() -> imp method hh...it takes a pattern, divides the string into substrings and hence stores it into an array...
 console.log(xy.split('-')); //yha pr  '-' pattern diyaa gaya tha, usse hua yeh kii 'halwa' and 'bc' karke 2 substrings bane and usko hi ek array mein de diya gyaa
+
+
+//for more  -> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
