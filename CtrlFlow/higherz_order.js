@@ -55,6 +55,34 @@ for(const key in myObj){
 
 const coding = ["app","js","cpp","rb"]
 coding.forEach( function (item) {
-    console.log(item)
+    //console.log(item)
+} ) //iskoo arrow function ki trh bhii likh sktee hain
+
+coding.forEach( (systumm) => {
+    //console.log(systumm)
 } )
 
+coding.forEach( (item,index,arr) => {
+    //console.log(item , index , arr)
+} )
+
+
+// Using on Array of Objects...
+const myCode = [
+    {
+        langName : "javascript",
+        langFile : "js"
+    },
+    {
+        langName : "dommm",
+        langFile : "dm"
+    },
+    {
+        langName : "bhains ki taint",
+        langFile : "bkt"
+    },
+]
+
+myCode.forEach( (arrObjItem) => {
+    console.log(arrObjItem.langName) //this will vcall array of objects ke andar....object ka langName wala part
+} )
