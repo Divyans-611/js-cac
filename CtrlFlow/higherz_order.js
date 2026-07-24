@@ -48,5 +48,13 @@ for(const key in myObj){
 
 //for the values part...
 for(const key in myObj){
-    console.log(`${key} stands for ${myObj[key]}`)
+    //console.log(`${key} stands for ${myObj[key]}`)
 }
+
+//forEach loop -> uses a callback functionn -> rerturn krke dega fir jo marzii krdo uss valuee ke saath
+
+const coding = ["app","js","cpp","rb"]
+coding.forEach( function (item) {
+    console.log(item)
+} )
+
