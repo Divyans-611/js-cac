@@ -9,7 +9,7 @@ for(const idxVal of arr){
 
 const greetings = "Hello Worldd"
 for(const greet of greetings){
-    console.log(`Each char is ${greet}`)
+   // console.log(`Each char is ${greet}`)
 }
 
 
@@ -21,10 +21,32 @@ map.set('UK',"United Kingdom")
 map.set('USA',"United States of Americaa")
 map.set('IN',"India") // agar same entry do baar le li to bhi nahi aayega....map doesnt allow multiple entries in it...
 
-for(const i of map.keys()){ //keys() funcn call will print keys from the map
-    console.log(i)
+//console.table(map)
+// for(const tbl of map){
+//     console.table(tbl)
+// }
+
+// for(const i of map.keys()){ //keys() funcn call will print keys from the map
+//     console.log(i)
+// }
+
+// for(const j of map.values()){//prints the values for the map
+//     console.log(j)
+// }
+
+//FOR NORMAL OBJECTS WE DO NOT USE THIS, INSTEAD WHAT WE USE IS -> FOR IN loop
+
+const myObj = {
+    js : "Javascript",
+    cpp : "C++",
+    py : "Python",
+    swift : "Swift by Apple"
+}
+for(const key in myObj){
+    //console.log(key)
 }
 
-for(const j of map.values()){//prints the values for the map
-    console.log(j)
+//for the values part...
+for(const key in myObj){
+    console.log(`${key} stands for ${myObj[key]}`)
 }
