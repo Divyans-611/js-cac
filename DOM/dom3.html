@@ -11,10 +11,14 @@
 <script>
     const div = document.createElement('div')
     div.id = Math.round(Math.random() * 10 + 1)
-    div.innerText = "Hizron ki faujj"
+   
     console.log(div)
     div.setAttribute("title","generated bitchhh")
     div.style.backgroundColor = "pink"
     div.style.padding = '20px'
+
+    // div.innerText = "Hizron ki faujj"
+    const addText = document.createTextNode("Hlooo aaye hh")
+    div.appendChild(addText)
 </script>    
 </html>
