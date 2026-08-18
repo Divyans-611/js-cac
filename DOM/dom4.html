@@ -11,7 +11,7 @@
     </ul>
     
 </body>
-<script>
+<script style = " color : #fff">
     function addLang(LangName){
         const li = document.createElement('li');
         li.innerHTMl = `${LangName}`
@@ -20,5 +20,14 @@
     }
     addLang("python")
     addLang("typescript ")
+
+    function addOptiLang(LangName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+    }
+
+    addOptiLang('goLang');
+    const secondLang = document.querySelector("li : nth-child(2)")
+    secondLang.innerHTML = "Mojo"
 </script>
 </html>
